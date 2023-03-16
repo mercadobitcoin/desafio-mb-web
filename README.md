@@ -127,8 +127,8 @@ Validar antes de receber os dados se todos os campos foram preenchidos, caso nã
 ## Dicas
 
 - Não é necessário que o componente de formulário seja renderizado no servidor (server side rendering).
-- Não iremos avaliar a fidelidade do layout apresentado, não perca tempo com isso.
-- Apresente a solução completa em um único repositório.
+- Não iremos avaliar a fidelidade do layout apresentado, não é preciso investir tempo no “pixel perfect” para esse caso.
+- Apresente a sua implementação completa em um único repositório.
 
 ## Importante
 
