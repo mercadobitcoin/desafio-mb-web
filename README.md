@@ -93,9 +93,9 @@ Validar se todos os campos foram preenchidos.
 
 ### Layout
 
-Utilize a imagem abaixo como base de estilo para o componente de formulário.
+Utilize a imagem abaixo como base de estilo para os componentes de formulário.
 
-<img src="https://user-images.githubusercontent.com/83235141/225642074-c4c1ece4-1bd4-4e31-b0ea-59569b3c7768.png" width="300">
+![Telas](https://user-images.githubusercontent.com/83235141/225738014-586a2dea-dc10-4e7d-af31-b877f91ce2ba.png)
 
 ### Requisitos técnicos
 
@@ -110,7 +110,7 @@ A aplicação servidor responsável por renderizar o formulário e receber a sub
 
 `[GET] /registration`
 
-- Responsável por renderizar um html simples que irá carregar o componente de renderização do formulário.
+- Responsável por renderizar um html simples que irá carregar os componentes do formulário.
 
 `[POST] /registration`
 
