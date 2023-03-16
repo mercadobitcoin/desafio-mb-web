@@ -21,73 +21,90 @@ flowchart LR
 
 O formulário de cadastro deve ser exibido em 4 passos distintos conforme apresentado abaixo:
 
-**Passo 1**
+> **Passo 1**
 
-Campos solicitados: 
+**Campos de formulário**
 
 - Endereço de e-mail.
-- Tipo de cadastro: Pessoa Física (PF) ou Pessoal Jurídica (PJ)
+- Tipo de cadastro: Pessoa Física (PF) ou Pessoa Jurídica (PJ)
 
-Botões de ação
+**Botões de ação**
 
-- **Continuar**: deve levar o usuário ao passo 2 do cadastro.
+- Continuar: levar o usuário ao passo 2 do cadastro.
 
-Validação: Deve-se validar se todos os campos foram preenchidos.
+**Validação**
 
-**Passo 2**
+Validar se todos os campos foram preenchidos.
+
+> **Passo 2**
 
 Nesse passo, dependendo do tipo de cadastro escolhido, deve-se renderizar os campos da seguinte forma:
 
-Campos solicitados para o cadastro PF:
+**Campos de formulário para o cadastro PF**
 
 - Nome
 - CPF
 - Data de nascimento
 - Número de telefone
 
-Campos solicitados para o cadastro PJ:
+**Campos de formulário para o cadastro PJ**
 
 - Razão social
 - CNPJ
 - Data de abertura da empresa
 - Telefone
 
-Botões de ação:
+**Botões de ação**
 
-- **Voltar**: deve levar o usuário de volta ao passo 1 do cadastro.
-- **Continuar**: deve levar o usuário ao passo 3 do cadastro.
+- Voltar: levar o usuário de volta ao passo 1 do cadastro.
+- Continuar: levar o usuário ao passo 3 do cadastro.
 
-Validação: Deve-se validar se todos os campos foram preenchidos.
+**Validação**
 
-**Passo 3**
+Validar se todos os campos foram preenchidos.
 
-Campos solicitados:
+> **Passo 3**
+
+**Campos de formulário**
 
 - Senha de acesso
 
-Botões de ação:
+**Botões de ação**
 
-- **Voltar**: deve levar o usuário de volta ao passo 2 do cadastro.
-- **Continuar**: deve levar o usuário ao passo 4 do cadastro.
+- Voltar: levar o usuário de volta ao passo 2 do cadastro.
+- Continuar: levar o usuário ao passo 4 do cadastro.
 
-Validação: Deve-se validar se todos os campos foram preenchidos.
+**Validação**
 
-**Passo 4**
+Validar se todos os campos foram preenchidos.
+
+> **Passo 4**
 
 Esse passo consiste em permitir que o usuário revise todas as informações dadas e para isso é necessário que se apresente todos os campos dos passos anteriores, permitindo assim a revisão e possível alteração de quaisquer campo pelo usuário.
 
-Botões de ação:
+**Botões de ação**
 
-- **Voltar**: deve levar o usuário de volta ao passo 3 do cadastro.
-- **Cadastrar**: deve submeter todos os dados informados pelo usuário ao serviço backend.
+- Voltar: levar o usuário de volta ao passo 3 do cadastro.
+- Cadastrar: submeter todos os dados informados pelo usuário a api de cadastro.
 
-Validação: Deve-se validar se todos os campos foram preenchidos.
+**Validação**
 
------------
+Validar se todos os campos foram preenchidos.
+
+### Layout
+
+Utilize a imagem abaixo como base de estilo para o componente de formulário.
+
+<img src="https://user-images.githubusercontent.com/83235141/225642074-c4c1ece4-1bd4-4e31-b0ea-59569b3c7768.png" width="300">
+
+### Requisitos técnicos
+
+- Vue/Javascript (não utilize Typescript)
+- Css/Sass (não utilize Tailwind)
 
 ## Características da aplicação servidor
 
-A aplicação servidor deve ser responsável por renderizar o formulário e receber a submissão dos dados ao final do cadastro.
+A aplicação servidor responsável por renderizar o formulário e receber a submissão dos dados ao final do cadastro.
 
 ### Endpoints
 
@@ -95,4 +112,24 @@ A aplicação servidor deve ser responsável por renderizar o formulário e rece
 
 - Responsável por renderizar um html simples que irá carregar o componente de renderização do formulário.
 
+`[POST] /registration`
 
+- Api de cadastro responsável por receber os dados submetidos pelo usuário em formato JSON.
+
+**Validação**
+
+Validar antes de receber os dados se todos os campos foram preenchidos, caso não, retorne um erro com o código http adequado.
+
+### Requisitos técnicos
+
+- Express/Javascript (não utilize Typescript)
+
+## Dicas
+
+- Não é necessário que o componente de formulário seja renderizado no servidor (server side rendering).
+- Não iremos avaliar a fidelidade do layout apresentado, não perca tempo com isso.
+- Apresente a solução completa em um único repositório.
+
+## Importante
+
+Esse código não será usado em nenhuma hipótese para qualquer fim a não ser o de avaliação de conhecimentos técnicos.
