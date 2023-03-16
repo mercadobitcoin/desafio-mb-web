@@ -95,7 +95,7 @@ Validar se todos os campos foram preenchidos.
 
 Utilize a imagem abaixo como base de estilo para os componentes de formulário.
 
-![Telas](https://user-images.githubusercontent.com/83235141/225738014-586a2dea-dc10-4e7d-af31-b877f91ce2ba.png)
+![Telas Desafio MB Web](https://user-images.githubusercontent.com/83235141/225743749-ca86ca69-5902-4a75-bb42-d6c0fc169bf4.png)
 
 ### Requisitos técnicos
 
