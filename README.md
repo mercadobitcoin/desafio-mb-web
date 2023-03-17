@@ -104,7 +104,7 @@ Utilize a imagem abaixo como base de estilo para os componentes de formulário.
 
 ## Características da aplicação servidor
 
-A aplicação servidor responsável por renderizar o formulário e receber a submissão dos dados ao final do cadastro.
+Aplicação responsável por renderizar o formulário e receber a submissão dos dados ao final do cadastro.
 
 ### Endpoints
 
