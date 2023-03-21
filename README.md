@@ -100,7 +100,7 @@ Utilize a imagem abaixo como base de estilo para os componentes de formulário.
 ### Requisitos técnicos
 
 - Vue/Javascript (não utilize Typescript)
-- Css/Sass (não utilize Tailwind)
+- Css/Sass (não utilize Tailwind ou outras frameworks de estilo)
 
 ## Características da aplicação servidor
 
