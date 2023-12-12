@@ -99,8 +99,9 @@ Utilize a imagem abaixo como base de estilo para os componentes de formulário.
 
 ### Requisitos técnicos
 
-- Vue/Javascript (não utilize Typescript)
-- Css/Sass (não utilize Tailwind ou outras frameworks de estilo)
+- VueJS/Javascript (não utilize Typescript)
+- Não utilize frameworks para requisições HTTP como Axios e similares, dê preferência ao fetch nativo
+- CSS/Sass desenvolvidos por você apenas (não utilize Tailwind ou outras frameworks de estilo, queremos entender como você estrutura classes e estilos)
 
 ## Características da aplicação servidor
 
@@ -128,7 +129,7 @@ Validar antes de receber os dados se todos os campos foram preenchidos, caso nã
 
 - Não é necessário que o componente de formulário seja renderizado no servidor (server side rendering).
 - Não iremos avaliar a fidelidade do layout apresentado, não é preciso investir tempo no “pixel perfect” para esse caso.
-- Apresente a sua implementação completa em um único repositório.
+- Apresente a sua implementação completa em um único repositório e com instruções do README.md de como rodar/testar a aplicação
 
 ## Importante
 
