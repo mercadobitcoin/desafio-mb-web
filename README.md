@@ -100,7 +100,7 @@ Utilize a imagem abaixo como base de estilo para os componentes de formulário.
 ### Requisitos técnicos
 
 - VueJS 3 (preferencialmente composition API) / Javascript Vanilla (não utilize Typescript)
-- Não utilize Vue Router ou frameworks do tipo
+- Não é necessário utilizar Vue Router ou frameworks do tipo
 - Não utilize frameworks de Store/Gerenciamento de estado
 - Não utilize frameworks para requisições HTTP como Axios e similares, dê preferência ao fetch nativo
 - CSS/SASS desenvolvidos por você apenas (não utilize Tailwind, Vuetify ou outras frameworks de estilo, queremos entender como você estrutura classes, estilos e seus nomes)
