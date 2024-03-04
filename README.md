@@ -15,13 +15,19 @@ flowchart LR
     Client(Vue Registration Component) --> Server(NodeJS Express API)
 ```
 
-## Características da aplicação cliente
+# Características da aplicação cliente
+
+### Layout
+
+Utilize a imagem abaixo como base de estilo para os componentes de formulário.
+
+![Telas Desafio MB Web](https://user-images.githubusercontent.com/83235141/225743749-ca86ca69-5902-4a75-bb42-d6c0fc169bf4.png)
 
 ### Requisitos funcionais
 
-O formulário de cadastro deve ser exibido em 4 passos distintos e modulares conforme apresentado abaixo:
+O formulário de cadastro deve ser exibido em 4 passos distintos e modulares conforme apresentado abaixo, com capacidade de ser responsivo para telas de celular.
 
-> **Passo 1**
+## **Passo 1**
 
 **Campos de formulário**
 
@@ -36,7 +42,7 @@ O formulário de cadastro deve ser exibido em 4 passos distintos e modulares con
 
 Validar se todos os campos foram preenchidos.
 
-> **Passo 2**
+## **Passo 2**
 
 Nesse passo, dependendo do tipo de cadastro escolhido, deve-se renderizar os campos da seguinte forma:
 
@@ -63,7 +69,7 @@ Nesse passo, dependendo do tipo de cadastro escolhido, deve-se renderizar os cam
 
 Validar se todos os campos foram preenchidos.
 
-> **Passo 3**
+# **Passo 3**
 
 **Campos de formulário**
 
@@ -78,7 +84,7 @@ Validar se todos os campos foram preenchidos.
 
 Validar se todos os campos foram preenchidos.
 
-> **Passo 4**
+## **Passo 4**
 
 Esse passo consiste em permitir que o usuário revise todas as informações dadas e para isso é necessário que se apresente todos os campos dos passos anteriores, permitindo assim a revisão e possível alteração de quaisquer campo pelo usuário.
 
@@ -91,12 +97,6 @@ Esse passo consiste em permitir que o usuário revise todas as informações dad
 
 Validar se todos os campos foram preenchidos.
 
-### Layout
-
-Utilize a imagem abaixo como base de estilo para os componentes de formulário.
-
-![Telas Desafio MB Web](https://user-images.githubusercontent.com/83235141/225743749-ca86ca69-5902-4a75-bb42-d6c0fc169bf4.png)
-
 ### Requisitos técnicos
 
 - VueJS 3 (preferencialmente composition API) / Javascript Vanilla (não utilize Typescript)
@@ -104,6 +104,7 @@ Utilize a imagem abaixo como base de estilo para os componentes de formulário.
 - Não utilize frameworks de Store/Gerenciamento de estado
 - Não utilize frameworks para requisições HTTP como Axios e similares, dê preferência ao fetch nativo
 - CSS/SASS desenvolvidos por você apenas (não utilize Tailwind, Vuetify ou outras frameworks de estilo, queremos entender como você estrutura classes, estilos e seus nomes)
+- Performance no client-side é importante, leve isso em consideração ao construir sua solução, tanto em download dos assets, bem como na execução do código e uso de recursos de processamento e memória. 
 
 ## Características da aplicação servidor
 
