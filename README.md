@@ -19,7 +19,7 @@ flowchart LR
 
 ### Requisitos funcionais
 
-O formulário de cadastro deve ser exibido em 4 passos distintos conforme apresentado abaixo:
+O formulário de cadastro deve ser exibido em 4 passos distintos e modulares conforme apresentado abaixo:
 
 > **Passo 1**
 
@@ -99,9 +99,11 @@ Utilize a imagem abaixo como base de estilo para os componentes de formulário.
 
 ### Requisitos técnicos
 
-- VueJS/Javascript (não utilize Typescript)
+- VueJS 3 (preferencialmente composition API) / Javascript Vanilla (não utilize Typescript)
+- Não utilize Vue Router ou frameworks do tipo
+- Não utilize frameworks de Store/Gerenciamento de estado
 - Não utilize frameworks para requisições HTTP como Axios e similares, dê preferência ao fetch nativo
-- CSS/Sass desenvolvidos por você apenas (não utilize Tailwind ou outras frameworks de estilo, queremos entender como você estrutura classes e estilos)
+- CSS/SASS desenvolvidos por você apenas (não utilize Tailwind, Vuetify ou outras frameworks de estilo, queremos entender como você estrutura classes, estilos e seus nomes)
 
 ## Características da aplicação servidor
 
@@ -111,7 +113,7 @@ Aplicação responsável por renderizar o formulário e receber a submissão dos
 
 `[GET] /registration`
 
-- Responsável por renderizar um html simples que irá carregar os componentes do formulário.
+- Responsável por renderizar uma página html simples que irá carregar os componentes do formulário.
 
 `[POST] /registration`
 
@@ -123,7 +125,7 @@ Validar antes de receber os dados se todos os campos foram preenchidos, caso nã
 
 ### Requisitos técnicos
 
-- Express/Javascript (não utilize Typescript)
+- Express/Javascript Vanilla (não utilize Typescript)
 
 ## Dicas
 
