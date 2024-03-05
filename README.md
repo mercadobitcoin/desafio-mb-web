@@ -86,7 +86,7 @@ Validar se todos os campos foram preenchidos.
 
 ## **Passo 4**
 
-Esse passo consiste em permitir que o usuário revise todas as informações dadas e para isso é necessário que se apresente todos os campos dos passos anteriores, permitindo assim a revisão e possível alteração de quaisquer campo pelo usuário.
+Esse passo consiste em permitir que o usuário revise todas as informações dadas e para isso é necessário que se apresente todos os campos dos passos anteriores, permitindo assim a revisão e possível alteração de quaisquer campos pelo usuário.
 
 **Botões de ação**
 
@@ -103,22 +103,22 @@ Validar se todos os campos foram preenchidos.
 - Não é necessário utilizar Vue Router ou frameworks do tipo
 - Não utilize frameworks de Store/Gerenciamento de estado
 - Não utilize frameworks para requisições HTTP como Axios e similares, dê preferência ao fetch nativo
-- CSS/SASS desenvolvidos por você apenas (não utilize Tailwind, Vuetify ou outras frameworks de estilo, queremos entender como você estrutura classes, estilos e seus nomes)
+- CSS/SASS desenvolvidos por você apenas (não utilize Tailwind, Vuetify ou outras frameworks de estilo, queremos entender como você estrutura classes, estilos, elementos e seus nomes)
 - Performance no client-side é importante, leve isso em consideração ao construir sua solução, tanto em download dos assets, bem como na execução do código e uso de recursos de processamento e memória. 
 
 ## Características da aplicação servidor
 
-Aplicação responsável por renderizar o formulário e receber a submissão dos dados ao final do cadastro.
+Aplicação básica responsável por renderizar o formulário e receber a submissão dos dados ao final do cadastro. Não é necessário armazenar os dados. A aplicação não precisa ser complexa, o objetivo é ter apenas 2 endpoints.
 
 ### Endpoints
 
 `[GET] /registration`
 
-- Responsável por renderizar uma página html simples que irá carregar os componentes do formulário.
+- Responsável por renderizar uma página html simples que irá carregar os componentes do formulário no browser.
 
 `[POST] /registration`
 
-- Api de cadastro responsável por receber os dados submetidos pelo usuário em formato JSON.
+- Api de cadastro responsável por receber os dados submetidos pelo usuário em formato JSON e responder para o client com sucesso. O objetivo é apenas simular envio do formulário com os dados preenchidos, o recebimento da resposta e como será feito o envio para servidor.
 
 **Validação**
 
@@ -131,6 +131,7 @@ Validar antes de receber os dados se todos os campos foram preenchidos, caso nã
 ## Dicas
 
 - Não é necessário que o componente de formulário seja renderizado no servidor (server side rendering).
+- O POST dos dados submetidos não precisa armazenar os dados em nenhum banco de dados, apenas receber os dados e simular a resposta de um cadastro com sucesso
 - Não iremos avaliar a fidelidade do layout apresentado, não é preciso investir tempo no “pixel perfect” para esse caso.
 - Apresente a sua implementação completa em um único repositório e com instruções do README.md de como rodar/testar a aplicação
 
