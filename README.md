@@ -13,9 +13,10 @@ Criar uma aplicação cliente/servidor de cadastro de usuários.
 ```mermaid
 flowchart TD
     A[Server NodeJS Method:GET] -->|Client - HTML with Vue Registration Components| B(Render Page and form steps components logic)
-    B --> C{POST data to NodeJS Express}
-    C -->|Success| D[Displays result/response]
-    C -->|Error| E[Displays result/response]
+    B --> C(User fill the data)
+    C --> D{POST data to NodeJS Express}
+    D -->|Success| F[Displays result/response]
+    D -->|Error| G[Displays message and let user try again]
 ```
 
 
