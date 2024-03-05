@@ -12,7 +12,7 @@ Criar uma aplicação cliente/servidor de cadastro de usuários.
 
 ```mermaid
 flowchart LR
-    Server [GET] (NodeJS Express) --> Client(HTML with Vue Registration Component) --> Server [POST] (NodeJS Express API) --> Client (Displays result/response)
+    Server Method:GET (NodeJS Express) --> Client(HTML with Vue Registration Component) --> Server Method:POST (NodeJS Express API) --> Client (Displays result/response)
 ```
 
 # Características da aplicação cliente
