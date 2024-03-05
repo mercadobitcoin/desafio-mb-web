@@ -11,9 +11,13 @@ Esse desafio tem como objetivo entender seus conhecimentos sobre a plataforma We
 Criar uma aplicação cliente/servidor de cadastro de usuários.
 
 ```mermaid
-flowchart LR
-    Server Method:GET (NodeJS Express) --> Client(HTML with Vue Registration Component) --> Server Method:POST (NodeJS Express API) --> Client (Displays result/response)
+flowchart TD
+    A[Server NodeJS Method:GET] -->|Client - HTML with Vue Registration Components| B(Render Page and form steps components logic)
+    B --> C{POST data to NodeJS Express}
+    C -->|Success| D[Displays result/response]
+    C -->|Error| E[Displays result/response]
 ```
+
 
 # Características da aplicação cliente
 
