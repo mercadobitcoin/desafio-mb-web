@@ -102,7 +102,8 @@ Esse passo consiste em permitir que o usuário revise todas as informações dad
 
 Validar se todos os campos foram preenchidos.
 
-### 👌 Requisitos técnicos
+
+# 👌 Requisitos técnicos
 
 - VueJS 3 (preferencialmente composition API) / Javascript Vanilla (não utilize Typescript)
 - Não é necessário utilizar Vue Router ou frameworks do tipo
