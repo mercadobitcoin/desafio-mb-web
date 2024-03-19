@@ -4,7 +4,7 @@ Somos a maior plataforma de negociação de criptomoedas e ativos alternativos d
 
 ## Objetivo
 
-Esse desafio tem como objetivo entender seus conhecimentos sobre a plataforma Web, assim como conceitos de base como HTML, CSS, protocolo HTTP e arquitetura cliente/servidor.
+Esse desafio tem como objetivo entender seus conhecimentos sobre a plataforma Web, assim como conceitos de base como HTML, CSS, protocolo HTTP e comunicação entre cliente (browser/app) e servidor/APIs.
 
 ## Projeto
 
