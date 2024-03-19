@@ -113,7 +113,7 @@ Validar se todos os campos foram preenchidos.
 
 ## Características da aplicação servidor
 
-Aplicação básica responsável por renderizar o formulário e receber a submissão dos dados ao final do cadastro. Não é necessário armazenar os dados. A aplicação não precisa ser complexa, o objetivo é ter apenas 2 endpoints.
+Aplicação básica responsável por renderizar o formulário e receber a submissão dos dados ao final do cadastro. Não é necessário armazenar os dados. A aplicação não precisa ser complexa, use o módulo Express para o NodeJS. O objetivo é ter apenas 2 endpoints simples.
 
 ### Endpoints
 
