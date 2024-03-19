@@ -2,6 +2,16 @@
 
 Somos a maior plataforma de negociação de criptomoedas e ativos alternativos da América Latina, criada para elevar a experiência de quem vivencia essa revolução, entregando o melhor serviço de negociação de ativos alternativos, com liberdade, segurança e liquidez. Sendo assim, nós existimos para mudar a maneira como as pessoas lidam com o dinheiro através da tecnologia.
 
+* [Objetivo](#objetivo)
+* [Características da aplicação cliente](#características-da-aplicação-cliente)
+  * [Layout](#-layout)
+  * [Requisitos funcionais](#-layout)
+* [Características da aplicação servidor](#características-da-aplicação-servidor)
+  * [Endpoints](#endpoints)
+  * [Requisitos técnicos para o servidor NodeJS](#requisitos-técnicos-para-o-servidor-nodejs)
+* [Dicas](#-dicas)
+
+
 ## Objetivo
 
 Esse desafio tem como objetivo entender seus conhecimentos sobre a plataforma Web, assim como conceitos de base como HTML, CSS, protocolo HTTP e comunicação entre cliente (browser/app) e servidor/APIs.
@@ -102,9 +112,9 @@ Esse passo consiste em permitir que o usuário revise todas as informações dad
 
 Validar se todos os campos foram preenchidos.
 
+---
 
-
-# 👌 Requisitos técnicos
+## 👌 Requisitos técnicos para a aplicação VUE
 
 - VueJS 3 (preferencialmente composition API) / Javascript Vanilla (não utilize Typescript)
 - Não é necessário utilizar Vue Router ou frameworks do tipo
@@ -113,7 +123,9 @@ Validar se todos os campos foram preenchidos.
 - CSS/SASS desenvolvidos por você apenas (não utilize Tailwind, Vuetify ou outras frameworks de estilo, queremos entender como você estrutura classes, estilos, elementos e seus nomes)
 - Performance no client-side é importante, leve isso em consideração ao construir sua solução, tanto em download dos assets, bem como na execução do código e uso de recursos de processamento e memória.
 
-## Características da aplicação servidor
+---
+
+# Características da aplicação servidor
 
 Aplicação básica responsável por renderizar o formulário e receber a submissão dos dados ao final do cadastro. Não é necessário armazenar os dados. A aplicação não precisa ser complexa, use o módulo Express para o NodeJS para criar um endpoint (API) para receber os dados simulando apenas que eles serão salvos. O objetivo é ter apenas 2 endpoints simples.
 
@@ -131,9 +143,13 @@ Aplicação básica responsável por renderizar o formulário e receber a submis
 
 Validar antes de receber os dados se todos os campos foram preenchidos, caso não, retorne um erro com o código http adequado.
 
-### Requisitos técnicos
+---
+
+### Requisitos técnicos para o servidor NodeJS
 
 - Express/Javascript Vanilla (não utilize Typescript)
+
+---
 
 > ## 🏆 Dicas
 > 
