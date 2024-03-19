@@ -8,7 +8,7 @@ Esse desafio tem como objetivo entender seus conhecimentos sobre a plataforma We
 
 ## Projeto
 
-Criar uma aplicação cliente/servidor de cadastro de usuários.
+Criar uma aplicação cliente (browser) de cadastro de usuários que envia os dados para um servidor NodeJS via uma API.
 
 ```mermaid
 flowchart TD
@@ -24,13 +24,13 @@ flowchart TD
 
 ### Layout
 
-Utilize a imagem abaixo como base de estilo para os componentes de formulário.
+Utilize a imagem abaixo como referência de estilo para os componentes de formulário.
 
 ![Telas Desafio MB Web](https://user-images.githubusercontent.com/83235141/225743749-ca86ca69-5902-4a75-bb42-d6c0fc169bf4.png)
 
 ### Requisitos funcionais
 
-O formulário de cadastro deve ser exibido em 4 passos distintos e modulares conforme apresentado abaixo, com capacidade de ser responsivo para telas de celular.
+O formulário de cadastro deve ser exibido em 4 passos distintos e modulares conforme apresentado abaixo, com capacidade de ser responsivo para telas de celulares.
 
 ## **Passo 1**
 
@@ -41,7 +41,7 @@ O formulário de cadastro deve ser exibido em 4 passos distintos e modulares con
 
 **Botões de ação**
 
-- Continuar: levar o usuário ao passo 2 do cadastro.
+- Continuar: (Ação) -> Levar o usuário ao passo 2 do cadastro.
 
 **Validação**
 
@@ -67,8 +67,8 @@ Nesse passo, dependendo do tipo de cadastro escolhido, deve-se renderizar os cam
 
 **Botões de ação**
 
-- Voltar: levar o usuário de volta ao passo 1 do cadastro.
-- Continuar: levar o usuário ao passo 3 do cadastro.
+- Voltar: (Ação) -> levar o usuário de volta ao passo 1 do cadastro.
+- Continuar: (Ação) -> levar o usuário ao passo 3 do cadastro.
 
 **Validação**
 
@@ -82,8 +82,8 @@ Validar se todos os campos foram preenchidos.
 
 **Botões de ação**
 
-- Voltar: levar o usuário de volta ao passo 2 do cadastro.
-- Continuar: levar o usuário ao passo 4 do cadastro.
+- Voltar: (Ação) -> levar o usuário de volta ao passo 2 do cadastro.
+- Continuar: (Ação) -> levar o usuário ao passo 4 do cadastro.
 
 **Validação**
 
@@ -95,8 +95,8 @@ Esse passo consiste em permitir que o usuário revise todas as informações dad
 
 **Botões de ação**
 
-- Voltar: levar o usuário de volta ao passo 3 do cadastro.
-- Cadastrar: submeter todos os dados informados pelo usuário a api de cadastro.
+- Voltar: (Ação) -> levar o usuário de volta ao passo 3 do cadastro.
+- Cadastrar: (Ação) -> submeter todos os dados informados pelo usuário a api de cadastro.
 
 **Validação**
 
