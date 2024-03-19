@@ -67,8 +67,8 @@ Nesse passo, dependendo do tipo de cadastro escolhido, deve-se renderizar os cam
 
 **Botões de ação**
 
-- Voltar: (Ação) -> levar o usuário de volta ao passo 1 do cadastro.
-- Continuar: (Ação) -> levar o usuário ao passo 3 do cadastro.
+- Voltar: `Ação` -> levar o usuário de volta ao passo 1 do cadastro.
+- Continuar: `Ação` -> levar o usuário ao passo 3 do cadastro.
 
 **Validação**
 
@@ -82,8 +82,8 @@ Validar se todos os campos foram preenchidos.
 
 **Botões de ação**
 
-- Voltar: (Ação) -> levar o usuário de volta ao passo 2 do cadastro.
-- Continuar: (Ação) -> levar o usuário ao passo 4 do cadastro.
+- Voltar: `Ação` ->  levar o usuário de volta ao passo 2 do cadastro.
+- Continuar: `Ação` -> levar o usuário ao passo 4 do cadastro.
 
 **Validação**
 
@@ -95,8 +95,8 @@ Esse passo consiste em permitir que o usuário revise todas as informações dad
 
 **Botões de ação**
 
-- Voltar: (Ação) -> levar o usuário de volta ao passo 3 do cadastro.
-- Cadastrar: (Ação) -> submeter todos os dados informados pelo usuário a api de cadastro.
+- Voltar: `Ação` -> levar o usuário de volta ao passo 3 do cadastro.
+- Cadastrar: `Ação` -> submeter todos os dados informados pelo usuário a api de cadastro.
 
 **Validação**
 
