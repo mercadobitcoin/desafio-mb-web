@@ -32,7 +32,7 @@ Utilize a imagem abaixo como referência de estilo para os componentes de formul
 
 O formulário de cadastro deve ser exibido em 4 passos distintos e modulares conforme apresentado abaixo, com capacidade de ser responsivo para telas de celulares.
 
-## **Passo 1**
+# **Passo 1**
 
 **Campos de formulário**
 
@@ -47,7 +47,7 @@ O formulário de cadastro deve ser exibido em 4 passos distintos e modulares con
 
 Validar se todos os campos foram preenchidos.
 
-## **Passo 2**
+# **Passo 2**
 
 Nesse passo, dependendo do tipo de cadastro escolhido, deve-se renderizar os campos da seguinte forma:
 
@@ -89,7 +89,7 @@ Validar se todos os campos foram preenchidos.
 
 Validar se todos os campos foram preenchidos.
 
-## **Passo 4**
+# **Passo 4**
 
 Esse passo consiste em permitir que o usuário revise todas as informações dadas e para isso é necessário que se apresente todos os campos dos passos anteriores, permitindo assim a revisão e possível alteração de quaisquer campos pelo usuário antes do envio do cadastro.
 
