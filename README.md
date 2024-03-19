@@ -14,7 +14,7 @@ Criar uma aplicação cliente/servidor de cadastro de usuários.
 flowchart TD
     A[Server NodeJS Method:GET] -->|Client - HTML with Vue Registration Components| B(Render Page and form steps components logic)
     B --> C(User fill the data)
-    C --> D{POST data to NodeJS Express}
+    C --> D{POST data to an API on NodeJS Express}
     D -->|Success| F[Displays result/response]
     D -->|Error| G[Displays message and let user try again]
 ```
