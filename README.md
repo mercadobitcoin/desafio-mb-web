@@ -103,6 +103,7 @@ Esse passo consiste em permitir que o usuário revise todas as informações dad
 Validar se todos os campos foram preenchidos.
 
 
+
 # 👌 Requisitos técnicos
 
 - VueJS 3 (preferencialmente composition API) / Javascript Vanilla (não utilize Typescript)
@@ -134,12 +135,12 @@ Validar antes de receber os dados se todos os campos foram preenchidos, caso nã
 
 - Express/Javascript Vanilla (não utilize Typescript)
 
-## 🏆 Dicas
-
-- Não é necessário que o componente de formulário seja renderizado no servidor (server side rendering).
-- O POST dos dados submetidos não precisa armazenar os dados em nenhum banco de dados, apenas receber os dados e simular a resposta de um cadastro com sucesso para o navegador com um objeto JSON.
-- Não iremos avaliar a fidelidade do layout apresentado, não é preciso investir tempo no “pixel perfect” para esse caso.
-- Apresente a sua implementação completa em um único repositório e com instruções do README.md de como rodar/testar a aplicação
+> ## 🏆 Dicas
+> 
+> - Não é necessário que o componente de formulário seja renderizado no servidor (server-side rendering).
+> - O POST dos dados submetidos não precisa armazenar os dados em nenhum banco de dados, apenas receber os dados e simular a resposta de um cadastro com sucesso para o navegador com um objeto JSON.
+> - Não iremos avaliar a fidelidade do layout apresentado, não é preciso investir tempo no “pixel perfect” para esse caso.
+> - Apresente a sua implementação completa em um único repositório e com instruções do README.md de como rodar/testar a aplicação
 
 ## 📄 Importante
 
