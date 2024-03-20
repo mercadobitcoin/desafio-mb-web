@@ -118,9 +118,9 @@ Validar se todos os campos foram preenchidos.
 
 - VueJS 3 (preferencialmente composition API + Vite) / Javascript Vanilla (não utilize Typescript)
 - Não é necessário utilizar Vue Router ou frameworks do tipo
-- Não utilize frameworks de Store/Gerenciamento de estado
+- Não utilize frameworks de Store/Gerenciamento de estado, dê preferência a recursos nativos da framework Vue ou do Javascript Vanilla
 - Não utilize frameworks para requisições HTTP como Axios e similares, dê preferência ao fetch nativo
-- CSS/SASS desenvolvidos por você apenas (não utilize Tailwind, Vuetify ou outras frameworks de estilo, queremos entender como você estrutura classes, estilos, elementos e seus nomes)
+- CSS/SASS desenvolvidos por você apenas (não utilize Tailwind, Vuetify ou outras frameworks de estilo, queremos entender como você estrutura classes e seus nomes, estilos, elementos e nomenclatura das variáveis)
 - Performance no client-side é importante, leve isso em consideração ao construir sua solução, tanto em download dos assets, bem como na execução do código e uso de recursos de processamento e memória.
 
 ---
