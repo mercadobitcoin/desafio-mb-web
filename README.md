@@ -14,7 +14,7 @@ Somos a maior plataforma de negociação de criptomoedas e ativos alternativos d
 
 ## Objetivo
 
-Esse desafio tem como objetivo em nos ajudar a entender seus conhecimentos sobre a plataforma Web, as linguagens, conceitos de base como Javascript, HTML, CSS, protocolo HTTP,  comunicação entre cliente (browser/app) e servidor/APIs e como você constrói a solução técnica com base nos requisitos apresentados.
+Esse desafio tem como objetivo em nos ajudar a entender seus conhecimentos sobre a plataforma Web, as linguagens, conceitos de base de Javascript, HTML, CSS, protocolo HTTP,  comunicação entre cliente (browser/app) e servidor/APIs e como você constrói a solução técnica com base nos requisitos apresentados.
 
 ## Projeto
 
