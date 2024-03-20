@@ -116,7 +116,7 @@ Validar se todos os campos foram preenchidos.
 
 ## 👌 Requisitos técnicos para a aplicação VUE
 
-- VueJS 3 (preferencialmente composition API) / Javascript Vanilla (não utilize Typescript)
+- VueJS 3 (preferencialmente composition API + Vite) / Javascript Vanilla (não utilize Typescript)
 - Não é necessário utilizar Vue Router ou frameworks do tipo
 - Não utilize frameworks de Store/Gerenciamento de estado
 - Não utilize frameworks para requisições HTTP como Axios e similares, dê preferência ao fetch nativo
