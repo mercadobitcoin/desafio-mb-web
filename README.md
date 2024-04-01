@@ -20,6 +20,16 @@ Esse desafio tem como objetivo em nos ajudar a entender seus conhecimentos sobre
 
 Criar uma aplicação cliente (browser) de cadastro de usuários que envia os dados para um servidor NodeJS via uma API.
 
+### 👌 Requisitos técnicos para a aplicação
+
+- VueJS 3 (preferencialmente composition API + Vite) / Javascript Vanilla (não utilize Typescript)
+- Não é necessário utilizar Vue Router ou frameworks do tipo
+- Não utilize frameworks de Store/Gerenciamento de estado, dê preferência a recursos nativos da framework Vue ou do Javascript Vanilla
+- Não utilize frameworks para requisições HTTP como Axios e similares, dê preferência ao fetch nativo
+- CSS/SASS desenvolvidos por você apenas (não utilize Tailwind, Vuetify ou outras frameworks de estilo, queremos entender como você estrutura classes e seus nomes, estilos, elementos e nomenclatura das variáveis)
+- Performance no client-side é importante, leve isso em consideração ao construir sua solução, tanto em download dos assets, bem como na execução do código e uso de recursos de processamento e memória.
+- NodeJS com Express para servir o conteúdo e as APIs (com modo "mockup") descritos abaixo na sessão [Requisitos técnicos para o servidor NodeJS](#requisitos-técnicos-para-o-servidor-nodejs)
+
 ```mermaid
 flowchart TD
     A[Server NodeJS Method:GET] -->|Client - HTML with Vue Registration Components| B(Render Page and form steps components logic)
@@ -113,15 +123,6 @@ Esse passo consiste em permitir que o usuário revise todas as informações dad
 Validar se todos os campos foram preenchidos.
 
 ---
-
-## 👌 Requisitos técnicos para a aplicação VUE
-
-- VueJS 3 (preferencialmente composition API + Vite) / Javascript Vanilla (não utilize Typescript)
-- Não é necessário utilizar Vue Router ou frameworks do tipo
-- Não utilize frameworks de Store/Gerenciamento de estado, dê preferência a recursos nativos da framework Vue ou do Javascript Vanilla
-- Não utilize frameworks para requisições HTTP como Axios e similares, dê preferência ao fetch nativo
-- CSS/SASS desenvolvidos por você apenas (não utilize Tailwind, Vuetify ou outras frameworks de estilo, queremos entender como você estrutura classes e seus nomes, estilos, elementos e nomenclatura das variáveis)
-- Performance no client-side é importante, leve isso em consideração ao construir sua solução, tanto em download dos assets, bem como na execução do código e uso de recursos de processamento e memória.
 
 ---
 
