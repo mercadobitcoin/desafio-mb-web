@@ -65,7 +65,7 @@ O formulário de cadastro deve ser exibido em 4 passos distintos e modulares con
 
 **Validação**
 
-Validar se todos os campos foram preenchidos.
+Validar se todos os campos foram preenchidos e de acordo com o tipo de campo, por exemplo, validar formato de e-mail.
 
 # **Passo 2**
 
@@ -92,7 +92,7 @@ Nesse passo, dependendo do tipo de cadastro escolhido, deve-se renderizar os cam
 
 **Validação**
 
-Validar se todos os campos foram preenchidos.
+Validar se todos os campos foram preenchidos e de acordo com o tipo de campo, por exemplo, validar se a data de abertura/nascimento é uma data válida.
 
 # **Passo 3**
 
@@ -111,7 +111,7 @@ Validar se todos os campos foram preenchidos.
 
 # **Passo 4**
 
-Esse passo consiste em permitir que o usuário revise todas as informações dadas e para isso é necessário que se apresente todos os campos dos passos anteriores, permitindo assim a revisão e possível alteração de quaisquer campos pelo usuário antes do envio do cadastro.
+Esse passo consiste em permitir que o usuário revise todas as informações dadas e para isso é necessário que se apresente todos os campos dos passos anteriores, permitindo assim a revisão e possível alteração de quaisquer campos pelo usuário e consequente validação pelo código antes do envio do cadastro.
 
 **Botões de ação**
 
@@ -120,7 +120,7 @@ Esse passo consiste em permitir que o usuário revise todas as informações dad
 
 **Validação**
 
-Validar se todos os campos foram preenchidos.
+Validar se todos os campos foram preenchidos e de acordo com o tipo de campo se estão no formato correto.
 
 ---
 
