@@ -22,7 +22,7 @@ Criar uma aplicação cliente (browser) de cadastro de usuários que envia os da
 
 ### 👌 Requisitos técnicos para a aplicação
 
-- VueJS 3 (preferencialmente composition API + Vite) / Javascript Vanilla (não utilize Typescript)
+- VueJS 3 (via composition API com `<script setup>` + Vite) / Javascript Vanilla (não utilize Typescript)
 - Não é necessário utilizar Vue Router ou frameworks do tipo
 - Não utilize frameworks de Store/Gerenciamento de estado, dê preferência a recursos nativos da framework Vue ou do Javascript Vanilla
 - Não utilize frameworks para requisições HTTP como Axios e similares, dê preferência ao fetch nativo
@@ -155,7 +155,7 @@ Validar antes de receber os dados se todos os campos foram preenchidos, caso nã
 > ## 🏆 Dicas
 > 
 > - Não é necessário que o componente de formulário seja renderizado no servidor (server-side rendering).
-> - O POST dos dados submetidos não precisa armazenar os dados em nenhum banco de dados, apenas receber os dados e simular a resposta de um cadastro com sucesso para o navegador com um objeto JSON.
+> - O POST dos dados submetidos não precisa armazenar os dados em nenhum banco de dados, apenas receber os dados, validar de forma básica se foram enviados e simular a resposta de um cadastro com sucesso para o navegador com um objeto JSON.
 > - Não iremos avaliar a fidelidade do layout apresentado, não é preciso investir tempo no “pixel perfect” para esse caso.
 > - Apresente a sua implementação completa em um único repositório e com instruções do README.md de como rodar/testar a aplicação
 
