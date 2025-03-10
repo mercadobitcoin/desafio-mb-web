@@ -30,6 +30,7 @@ Criar uma aplicação cliente (browser) de cadastro de usuários que envia os da
 - CSS/SASS desenvolvidos por você apenas (não utilize Tailwind, Vuetify ou outras frameworks de estilo, queremos entender como você estrutura classes e seus nomes, estilos, elementos e nomenclatura das variáveis)
 - Performance no client-side é importante, leve isso em consideração ao construir sua solução, tanto em download dos assets, bem como na execução do código e uso de recursos de processamento e memória.
 - NodeJS com Express para servir o conteúdo e as APIs (com modo "mockup") descritos abaixo na sessão [Requisitos técnicos para o servidor NodeJS](#requisitos-técnicos-para-o-servidor-nodejs)
+- Utilize npm para gerenciamento e instalação de dependências e scripts necessários
 
 ```mermaid
 flowchart TD
