@@ -27,3 +27,12 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+### Dependencies
+
+- SASS
+- Vue.js (3.x)
+- Vite
+- Vitest
+- Storybook

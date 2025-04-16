@@ -7,11 +7,12 @@
     "apps/*"
   ],
   "scripts": {
-    "dev:all": "concurrently \"npm --workspace apps/ui run dev\" \"npm --workspace apps/api run dev\"",
-    "dev:ui": "npm --workspace apps/ui run dev",
-    "dev:api": "npm --workspace apps/api run dev",
-    "test:ui": "npm --workspace apps/ui run test",
-    "test:api": "npm --workspace apps/api run test",
+    "dev:ui": "npm run dev --workspace=apps/ui",
+    "dev:api": "npm run dev --workspace=apps/api",
+    "dev:all": "concurrently \"npm run dev --workspace=apps/ui\" \"npm run dev --workspace=apps/api\"",
+    "test:ui": "npm run test --workspace=apps/ui",
+    "test:api": "npm run test --workspace=apps/api",
+    "test:all": "concurrently \"npm run test --workspace=apps/ui\" \"npm run test --workspace=apps/api\"",
     "clean": "sh .scripts/clean.sh"
   },
   "repository": {
