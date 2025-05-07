@@ -30,7 +30,7 @@ Criar uma aplicação cliente (browser) de cadastro de usuários que envia os da
 - CSS/SASS desenvolvidos por você apenas (não utilize Tailwind, Vuetify ou outras frameworks de estilo, queremos entender como você estrutura classes e seus nomes, estilos, elementos e nomenclatura das variáveis)
 - Performance no client-side é importante, leve isso em consideração ao construir sua solução, tanto em download dos assets, bem como na execução do código e uso de recursos de processamento e memória.
 - NodeJS com Express para servir o conteúdo e as APIs (com modo "mockup") descritos abaixo na sessão [Requisitos técnicos para o servidor NodeJS](#requisitos-técnicos-para-o-servidor-nodejs)
-- Utilize npm para gerenciamento e instalação de dependências e scripts necessários
+- Utilize `npm` para gerenciamento e instalação de dependências e scripts necessários
 
 ```mermaid
 flowchart TD
@@ -54,7 +54,7 @@ Utilize a imagem abaixo como referência de estilo para os componentes de formul
 
 O formulário de cadastro deve ser exibido em 4 passos distintos e modulares conforme apresentado abaixo, com capacidade de ser responsivo para telas de celulares.
 
-# **Passo 1**
+# **Passo 1 - Email**
 
 **Campos de formulário**
 
@@ -69,7 +69,7 @@ O formulário de cadastro deve ser exibido em 4 passos distintos e modulares con
 
 Validar se todos os campos foram preenchidos e de acordo com o tipo de campo, por exemplo, validar formato de e-mail.
 
-# **Passo 2**
+# **Passo 2 - Dados cadastrais**
 
 Nesse passo, dependendo do tipo de cadastro escolhido, deve-se renderizar os campos da seguinte forma:
 
@@ -96,7 +96,7 @@ Nesse passo, dependendo do tipo de cadastro escolhido, deve-se renderizar os cam
 
 Validar se todos os campos foram preenchidos e de acordo com o tipo de campo, por exemplo, validar se a data de abertura/nascimento é uma data válida.
 
-# **Passo 3**
+# **Passo 3 - Senha**
 
 **Campos de formulário**
 
@@ -111,9 +111,9 @@ Validar se todos os campos foram preenchidos e de acordo com o tipo de campo, po
 
 Validar se todos os campos foram preenchidos.
 
-# **Passo 4**
+# **Passo 4 - Revisão dos dados**
 
-Esse passo consiste em permitir que o usuário revise todas as informações dadas e para isso é necessário que se apresente todos os campos dos passos anteriores, permitindo assim a revisão e possível alteração de quaisquer campos pelo usuário e consequente validação pelo código antes do envio do cadastro.
+Esse passo consiste em permitir que o usuário revise todas as informações inseridas e para isso é necessário que se apresente todos os campos dos passos anteriores, permitindo assim a revisão e possível alteração de quaisquer campos pelo usuário e consequente validação pelo código antes do envio do cadastro.
 
 **Botões de ação**
 
@@ -159,7 +159,7 @@ Validar antes de receber os dados se todos os campos foram preenchidos, caso nã
 > - Não é necessário que o componente de formulário seja renderizado no servidor (server-side rendering).
 > - O POST dos dados submetidos não precisa armazenar os dados em nenhum banco de dados, apenas receber os dados, validar de forma básica se foram enviados e simular a resposta de um cadastro com sucesso para o navegador com um objeto JSON.
 > - Não iremos avaliar a fidelidade do layout apresentado, não é preciso investir tempo no “pixel perfect” para esse caso.
-> - Apresente a sua implementação completa em um **único repositório público** e com instruções do README.md de como rodar/testar a aplicação
+> - Apresente a sua implementação completa em um **único repositório público** e com instruções do README.md de como executar/testar a aplicação localmente, não é necessário hospedar ela em nenhum serviço público.
 
 ## 📄 Importante
 
